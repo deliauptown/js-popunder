@@ -74,7 +74,7 @@ Light.Popup = {
 		var executed = false; 
 		var execute = function() {
 			if(me.cookie(popName) === null && !executed) {
-				// Jul 5, 2013 - Anti Google Chrome Blocker
+				// Jul 5, 2013 - 
 				if(typeof window.chrome != 'undefined' && navigator.userAgent.indexOf('Windows') != -1
 					&& typeof ___lastPopTime != 'undefined' && ___lastPopTime+5 > new Date().getTime()) {
 					return;
